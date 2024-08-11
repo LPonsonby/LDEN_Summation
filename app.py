@@ -3,7 +3,7 @@ import math
 import dash-tools
 
 app = Dash(__name__)
-erver = app.server
+server = app.server
 
 app.layout = html.Div([
     html.H2("Under Construction"),
