@@ -1,6 +1,6 @@
 from dash import Dash, dash_table, html, dcc, Input, Output, State, callback
 import math
-import dash_tools
+import dash-tools
 
 app = Dash(__name__)
 server = app.server
