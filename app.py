@@ -2,7 +2,7 @@ from dash import Dash, dash_table, html, dcc, Input, Output, State, callback
 import math
 
 
-app = Dash.Dash(__name__)
+app = Dash(__name__)
 server = app.server
 
 app.layout = html.Div([
